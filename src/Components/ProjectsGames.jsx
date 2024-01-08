@@ -30,6 +30,9 @@ const ProjectsGames = () => {
             </div>
           </div>
           <div class="flex flex-col items-center">
+            <h1 className="font-Antonio text-center mb-6 mt-2 lg:text-4xl md:text-4xl text-2xl">
+              Nahual Attack
+            </h1>
             <a
               href="https://gx.games/es/games/gct7ed/nahual-attack/"
               target="blank"
@@ -40,9 +43,6 @@ const ProjectsGames = () => {
                 className="w-60 h-48 group-hover:animate-pulse group-hover:animate-infinite group-hover:animate-duration-[3000ms] group-hover:animate-ease-in"
               />
             </a>
-            <h1 className="font-Antonio text-center mt-6 lg:text-4xl md:text-4xl text-2xl">
-              Nahual Attack
-            </h1>
             <h1 className="font-Antonio text-center mt-6 lg:text-4xl md:text-4xl text-2xl">
               Diseñador
             </h1>
@@ -68,6 +68,9 @@ const ProjectsGames = () => {
             </div>
           </div>
           <div class="flex flex-col items-center">
+            <h1 className="font-Antonio text-center mb-6 mt-2 lg:text-4xl md:text-4xl text-2xl">
+              Too much perverts
+            </h1>
             <a
               href="https://strawberrychar.itch.io/too-much-perverts"
               target="blank"
@@ -78,9 +81,6 @@ const ProjectsGames = () => {
                 className="w-60 h-48 group-hover:animate-pulse group-hover:animate-infinite group-hover:animate-duration-[3000ms] group-hover:animate-ease-in"
               />
             </a>
-            <h1 className="font-Antonio text-center mt-6 lg:text-4xl md:text-4xl text-2xl">
-              Too much perverts
-            </h1>
             <h1 className="font-Antonio text-center mt-6 lg:text-4xl md:text-4xl text-2xl">
               Desarrollador
             </h1>
@@ -108,14 +108,19 @@ const ProjectsGames = () => {
             </div>
           </div>
           <div class="flex flex-col items-center">
-            <img
-              src={'./images/carousel/Light.png'}
-              alt="The way of the light"
-              className="w-60 h-48"
-            />
-            <h1 className="font-Antonio text-center mt-6 lg:text-4xl md:text-4xl text-2xl">
+            <h1 className="font-Antonio text-center mb-6 mt-2 lg:text-4xl md:text-4xl text-2xl">
               The way of the light
             </h1>
+            <a
+              href="https://realdash64.itch.io/the-way-of-the-light"
+              target="blank"
+            >
+              <img
+                src={'./images/carousel/Light.png'}
+                alt="The way of the light"
+                className="w-60 h-48 group-hover:animate-pulse group-hover:animate-infinite group-hover:animate-duration-[3000ms] group-hover:animate-ease-in"
+              />
+            </a>
             <h1 className="font-Antonio text-center mt-6 lg:text-4xl md:text-4xl text-2xl">
               Desarrollador
             </h1>
@@ -146,14 +151,14 @@ const ProjectsGames = () => {
             </div>
           </div>
           <div class="flex flex-col items-center">
+            <h1 className="font-Antonio text-center mb-6 mt-2 lg:text-4xl md:text-4xl text-2xl">
+              Extreme Speed
+            </h1>
             <img
               src={'./images/carousel/Extreme.png'}
               alt="Extreme Speed"
               className="w-60 h-48"
             />
-            <h1 className="font-Antonio text-center mt-6 lg:text-4xl md:text-4xl text-2xl">
-              Extreme Speed
-            </h1>
             <h1 className="font-Antonio text-center mt-6 lg:text-4xl md:text-4xl text-2xl">
               Desarrollador
             </h1>
@@ -162,9 +167,7 @@ const ProjectsGames = () => {
             </div>
             <div className="mt-11">
               <a href="https://github.com/Dash6464/Reto-2" target="blank">
-                <FaGithub
-                  className="text-black lg:text-5xl md:text-5xl text-4xl transition transform hover:scale-110 hover:-translate-y-1"
-                />
+                <FaGithub className="text-black lg:text-5xl md:text-5xl text-4xl transition transform hover:scale-110 hover:-translate-y-1" />
               </a>
             </div>
           </div>

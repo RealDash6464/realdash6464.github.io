@@ -35,6 +35,9 @@ const ProjectsWeb = () => {
             </div>
           </div>
           <div class="flex flex-col items-center">
+            <h1 className="font-Antonio text-center mb-6 mt-2 lg:text-4xl md:text-4xl text-2xl">
+              Mydo Life
+            </h1>
             <a href="http://mydo.life" target="blank">
               <img
                 src={'./images/carousel/mydolife.png'}
@@ -42,9 +45,6 @@ const ProjectsWeb = () => {
                 className="w-60 h-48 mt-4 border-black border group-hover:animate-pulse group-hover:animate-infinite group-hover:animate-duration-[1000ms] group-hover:animate-ease-in"
               />
             </a>
-            <h1 className="font-Antonio text-center mt-6 lg:text-4xl md:text-4xl text-2xl">
-              Mydo Life
-            </h1>
             <h1 className="font-Antonio text-center mt-6 lg:text-4xl md:text-4xl text-2xl">
               Desarrollador Frontend
             </h1>
@@ -88,6 +88,9 @@ const ProjectsWeb = () => {
             </div>
           </div>
           <div class="flex flex-col items-center">
+            <h1 className="font-Antonio text-center mb-6 mt-2 lg:text-4xl md:text-4xl text-2xl">
+              ISEM
+            </h1>
             <a href="http://isem-prueba.000webhostapp.com" target="blank">
               <img
                 src={'./images/carousel/Isem.png'}
@@ -95,9 +98,6 @@ const ProjectsWeb = () => {
                 className="w-60 h-48 mt-4 border-black border group-hover:animate-pulse group-hover:animate-infinite group-hover:animate-duration-[1000ms] group-hover:animate-ease-in"
               />
             </a>
-            <h1 className="font-Antonio text-center mt-6 lg:text-4xl md:text-4xl text-2xl">
-              ISEM
-            </h1>
             <h1 className="font-Antonio text-center mt-6 lg:text-4xl md:text-4xl text-2xl">
               Desarrollador Fullstack
             </h1>
