@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FaHtml5 } from 'react-icons/fa';
 import { FaCss3Alt } from 'react-icons/fa';
 import { DiJavascript1 } from 'react-icons/di';
@@ -19,22 +19,22 @@ const ProjectsWeb = () => {
       </h1>
       <div className="mt-9 flex lg:flex-row flex-col justify-evenly items-center lg:items-start">
         <div
-          class="bg-[#F8FBFE] lg:w-72 pb-8 md:w-72 w-56 h-full lg:mt-0 mt-5  rounded-lg group"
+          className="bg-[#F8FBFE] lg:w-72 pb-8 md:w-72 w-56 h-full lg:mt-0 mt-5  rounded-lg group"
           data-aos="flip-left"
           data-aos-delay={900}
         >
-          <div class="flex p-2 gap-1">
-            <div class="circle">
-              <span class="bg-red-500 inline-block center w-3 h-3 rounded-full"></span>
+          <div className="flex p-2 gap-1">
+            <div className="circle">
+              <span className="bg-red-500 inline-block center w-3 h-3 rounded-full"></span>
             </div>
-            <div class="circle">
-              <span class="bg-yellow inline-block center w-3 h-3 rounded-full"></span>
+            <div className="circle">
+              <span className="bg-yellow inline-block center w-3 h-3 rounded-full"></span>
             </div>
-            <div class="circle">
-              <span class="bg-green-500 box inline-block center w-3 h-3 rounded-full"></span>
+            <div className="circle">
+              <span className="bg-green-500 box inline-block center w-3 h-3 rounded-full"></span>
             </div>
           </div>
-          <div class="flex flex-col items-center">
+          <div className="flex flex-col items-center">
             <h1 className="font-Antonio text-center mb-6 mt-2 lg:text-4xl md:text-4xl text-2xl">
               Mydo Life
             </h1>
@@ -72,22 +72,22 @@ const ProjectsWeb = () => {
           </div>
         </div>
         <div
-          class="bg-[#F8FBFE] lg:w-72 pb-8 md:w-72 w-56 h-full lg:mt-0 mt-5 md:mb-16 mb-10 rounded-lg group"
+          className="bg-[#F8FBFE] lg:w-72 pb-8 md:w-72 w-56 h-full lg:mt-0 mt-5 md:mb-16 mb-10 rounded-lg group"
           data-aos="flip-right"
           data-aos-delay={900}
         >
-          <div class="flex p-2 gap-1">
-            <div class="circle">
-              <span class="bg-red-500 inline-block center w-3 h-3 rounded-full"></span>
+          <div className="flex p-2 gap-1">
+            <div className="circle">
+              <span className="bg-red-500 inline-block center w-3 h-3 rounded-full"></span>
             </div>
-            <div class="circle">
-              <span class="bg-yellow inline-block center w-3 h-3 rounded-full"></span>
+            <div className="circle">
+              <span className="bg-yellow inline-block center w-3 h-3 rounded-full"></span>
             </div>
-            <div class="circle">
-              <span class="bg-green-500 box inline-block center w-3 h-3 rounded-full"></span>
+            <div className="circle">
+              <span className="bg-green-500 box inline-block center w-3 h-3 rounded-full"></span>
             </div>
           </div>
-          <div class="flex flex-col items-center">
+          <div className="flex flex-col items-center">
             <h1 className="font-Antonio text-center mb-6 mt-2 lg:text-4xl md:text-4xl text-2xl">
               ISEM
             </h1>

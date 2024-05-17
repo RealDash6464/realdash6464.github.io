@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { HiBars3 } from 'react-icons/hi2';
 import { IoMdArrowDropdown } from 'react-icons/io';
 

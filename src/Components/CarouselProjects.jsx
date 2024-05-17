@@ -1,5 +1,5 @@
 import { Carousel } from 'keep-react'
-import React from 'react'
+
 
 import { FaLongArrowAltRight } from "react-icons/fa";
 
@@ -24,11 +24,11 @@ const CarouselProjects = () => {
         </div>
         <div className=' md:w-[80%] w-full z-10  relative'>
           <img src={"./images/carousel/Light.png"} alt='The way of the light' className='w-full -z-10 h-full'/>
-          <a href="" className='bg-blue absolute bottom-12 lg:px-12 px-7 rounded-full' target='blank'><FaLongArrowAltRight className='text-white lg:text-5xl text-3xl'/></a>
+          <a href="https://realdash64.itch.io/the-way-of-the-light" className='bg-blue absolute bottom-12 lg:px-12 px-7 rounded-full' target='blank'><FaLongArrowAltRight className='text-white lg:text-5xl text-3xl'/></a>
         </div>
         <div className=' md:w-[80%] w-full z-10  relative'>
           <img src={"./images/carousel/Extreme.png"} alt='Extreme Speed' className='w-full -z-10 h-full'/>
-          <a href="" className='bg-blue absolute bottom-12 lg:px-12 px-7 rounded-full' target='blank'><FaLongArrowAltRight className='text-white lg:text-5xl text-3xl'/></a>
+          <a href="#" className='bg-blue absolute bottom-12 lg:px-12 px-7 rounded-full' target='blank'><FaLongArrowAltRight className='text-white lg:text-5xl text-3xl'/></a>
         </div>
       </Carousel>
   )
