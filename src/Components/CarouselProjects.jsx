@@ -8,7 +8,7 @@ const CarouselProjects = () => {
       <Carousel slideInterval={5000} showControls={true} indicators={true} slide={true} indicatorsType={'bar'} indicatorsTypeColors={"slate"}>
         <div className=' md:w-[80%] w-full z-10  relative'>
           <img src={"./images/carousel/mydolife.png"} alt='Mydo life' className='w-full -z-10 h-full'/>
-          <a href="http://mydo.life" className='bg-blue absolute bottom-12 lg:px-12 px-7 rounded-full' target='blank'><FaLongArrowAltRight className='text-white lg:text-5xl text-3xl'/></a>
+          <a href="https://github.com/paulino-app/mydo-life" className='bg-blue absolute bottom-12 lg:px-12 px-7 rounded-full' target='blank'><FaLongArrowAltRight className='text-white lg:text-5xl text-3xl'/></a>
         </div>
         <div className=' md:w-[80%] w-full z-10  relative'>
           <img src={"./images/carousel/Isem.png"} alt='Isem' className='w-full -z-10 h-full'/>
