@@ -40,7 +40,7 @@ const ProjectsWeb = () => {
             </h1>
             <a href="https://github.com/paulino-app/mydo-life" target="blank">
               <img
-                src={'./images/carousel/mydolife.png'}
+                src={'./images/carousel/mydolife.png'} 
                 alt="Mydo life"
                 className="w-60 h-48 mt-4 border-black border group-hover:animate-pulse group-hover:animate-infinite group-hover:animate-duration-[1000ms] group-hover:animate-ease-in"
               />
