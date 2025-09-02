@@ -38,7 +38,7 @@ const ProjectsWeb = () => {
             <h1 className="font-Antonio text-center mb-6 mt-2 lg:text-4xl md:text-4xl text-2xl">
               Mydo Life
             </h1>
-            <a href="http://mydo.life" target="blank">
+            <a href="https://github.com/paulino-app/mydo-life" target="blank">
               <img
                 src={'./images/carousel/mydolife.png'}
                 alt="Mydo life"
