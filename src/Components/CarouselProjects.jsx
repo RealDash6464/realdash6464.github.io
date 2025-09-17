@@ -3,33 +3,26 @@ import { Carousel } from 'keep-react'
 
 import { FaLongArrowAltRight } from "react-icons/fa";
 
+const boxes = [
+  { id: 0, image: "mydolife.png", url: "https://github.com/paulino-app/mydo-life", alt: "Mydo life",},
+  { id: 1, image: "fnaf-CJ.webp", url: "https://gamejolt.com/games/clouded_judgment/830459", alt: "FNAF Clouded Judgment"},
+  { id: 2, image: "NahualAttack.png", url: "https://gx.games/es/games/gct7ed/nahual-attack/", alt: "Nahual Attack"},
+  { id: 3, image: "too.png", url: "https://strawberrychar.itch.io/too-much-perverts", alt: "Too much perverts"},
+  { id: 4, image: "Light.png", url: "https://realdash64.itch.io/the-way-of-the-light", alt: "The way of the light"},
+  { id: 5, image: "Extreme.png", url: "https://github.com/Dash6464/Reto-2", alt: "Extreme Speed"}
+]
+
 const CarouselProjects = () => {
+  const listBoxes = boxes.map(box => 
+        <div key={box.id} className=' md:w-[80%] w-full z-10  relative'>
+          <img src={`./images/carousel/${box.image}`} alt={`${box.alt}`} className='w-full -z-10 h-full'/>
+          <a href={`${box.url}`} className='bg-blue absolute bottom-12 lg:px-12 px-7 rounded-full' target='blank'><FaLongArrowAltRight className='text-white lg:text-5xl text-3xl'/></a>
+        </div>)
   return (
       <Carousel slideInterval={5000} showControls={true} indicators={true} slide={true} indicatorsType={'bar'} indicatorsTypeColors={"slate"}>
-        <div className=' md:w-[80%] w-full z-10  relative'>
-          <img src={"./images/carousel/mydolife.png"} alt='Mydo life' className='w-full -z-10 h-full'/>
-          <a href="https://github.com/paulino-app/mydo-life" className='bg-blue absolute bottom-12 lg:px-12 px-7 rounded-full' target='blank'><FaLongArrowAltRight className='text-white lg:text-5xl text-3xl'/></a>
-        </div>
-        <div className=' md:w-[80%] w-full z-10  relative'>
-          <img src={"./images/carousel/Isem.png"} alt='Isem' className='w-full -z-10 h-full'/>
-          <a href="http://isem-prueba.000webhostapp.com" className='bg-blue absolute bottom-12 lg:px-12 px-7 rounded-full' target='blank'><FaLongArrowAltRight className='text-white lg:text-5xl text-3xl'/></a>
-        </div>
-        <div className=' md:w-[80%] w-full z-10  relative'>
-          <img src={"./images/carousel/NahualAttack.png"} alt='Nahaul Attack' className='w-full -z-10 h-full'/>
-          <a href="https://gx.games/es/games/gct7ed/nahual-attack/" className='bg-blue absolute bottom-12 lg:px-12 px-7 rounded-full' target='blank'><FaLongArrowAltRight className='text-white lg:text-5xl text-3xl'/></a>
-        </div>
-        <div className=' md:w-[80%] w-full z-10  relative'>
-          <img src={"./images/carousel/too.png"} alt='Too much Pervets' className='w-full -z-10 h-full'/>
-          <a href="https://strawberrychar.itch.io/too-much-perverts" className='bg-blue absolute bottom-12 lg:px-12 px-7 rounded-full' target='blank'><FaLongArrowAltRight className='text-white lg:text-5xl text-3xl'/></a>
-        </div>
-        <div className=' md:w-[80%] w-full z-10  relative'>
-          <img src={"./images/carousel/Light.png"} alt='The way of the light' className='w-full -z-10 h-full'/>
-          <a href="https://realdash64.itch.io/the-way-of-the-light" className='bg-blue absolute bottom-12 lg:px-12 px-7 rounded-full' target='blank'><FaLongArrowAltRight className='text-white lg:text-5xl text-3xl'/></a>
-        </div>
-        <div className=' md:w-[80%] w-full z-10  relative'>
-          <img src={"./images/carousel/Extreme.png"} alt='Extreme Speed' className='w-full -z-10 h-full'/>
-          <a href="#" className='bg-blue absolute bottom-12 lg:px-12 px-7 rounded-full' target='blank'><FaLongArrowAltRight className='text-white lg:text-5xl text-3xl'/></a>
-        </div>
+        {
+          listBoxes
+        }
       </Carousel>
   )
 }
