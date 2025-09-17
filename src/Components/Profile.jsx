@@ -7,7 +7,7 @@ const Profile = () => {
       <div className='w-1/2 flex flex-col lg:mx-0 mx-auto justify-evenly'>
         <h1 className='text-blue font-Oswald lg:text-6xl md:text-5xl text-3xl lg:text-left text-center lg:m-0 mt-8 mb-12'>¿Quien soy?</h1>
         <div className='text-blue font-Oswald lg:text-3xl md:text-4xl text-2xl text-justify lg:w-2/3 w-full'>
-          <p>Desarrollador de aplicaciones web con enfoque en desarrollo Front-end, busco constantemente mejorar mis habilidades y adquirir nuevos conocimientos para destacarme en el entorno laboral</p>
+          <p>Desarrollador de videojuegos junior con experiencia básica en Unity Engine, busco constantemente mejorar mis habilidades y adquirir nuevos conocimientos para destacarme en el entorno laboral</p>
         </div>
       </div>
     </div>
