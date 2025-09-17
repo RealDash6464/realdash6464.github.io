@@ -19,7 +19,7 @@ const Footer = () => {
   return (
     <div className="mt-12 overflow-y-hidden">
       <h1
-        className="text-blue font-Oswald lg:text-6xl md:text-5xl text-3xl mb-16 text-center"
+        className="text-yellow font-Oswald lg:text-6xl md:text-5xl text-3xl mb-16 text-center"
         data-aos="fade-up"
       >
         Contacto
@@ -47,7 +47,7 @@ const Footer = () => {
                 e.preventDefault();
               }
             }}
-            className={`text-black lg:text-5xl md:text-5xl text-4xl transition transform ${
+            className={`text-white lg:text-5xl md:text-5xl text-4xl transition transform ${
               user
                 ? 'hover:scale-110 hover:-translate-y-1 opacity-100'
                 : 'hover:cursor-default opacity-60'
@@ -89,8 +89,8 @@ const Footer = () => {
         </div>
       </div>
       <div data-aos="fade-up">
-        <div className="w-7/12 mt-10 mb-10 h-[2.5px] mx-auto bg-blue"></div>
-        <h1 className="text-blue font-Oswald lg:text-4xl md:text-5xl text-3xl lg:mb-10 mt-10 mb-16 text-center">
+        <div className="w-7/12 mt-10 mb-10 h-[2.5px] mx-auto bg-yellow"></div>
+        <h1 className="text-yellow font-Oswald lg:text-4xl md:text-5xl text-3xl lg:mb-10 mt-10 mb-16 text-center">
           2024
         </h1>
       </div>

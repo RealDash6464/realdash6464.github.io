@@ -12,7 +12,7 @@ const ProjectsWeb = () => {
   return (
     <div className="mx-auto mt-16 mb-20">
       <h1
-        className="text-blue font-Antonio lg:text-6xl md:text-5xl text-3xl text-center "
+        className="text-yellow font-Antonio lg:text-6xl md:text-5xl text-3xl text-center"
         data-aos="flip-down"
       >
         Proyectos web

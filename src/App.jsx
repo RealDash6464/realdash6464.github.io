@@ -4,7 +4,6 @@ import Navbar from './Components/Navbar';
 import CarouselProjects from './Components/CarouselProjects'
 import Profile from './Components/Profile'
 import Skills from './Components/Skills';
-import ProjectsWeb from './Components/ProjectsWeb';
 import ProjectsGames from './Components/ProjectsGames';
 import Footer from './Components/Footer';
 
@@ -33,13 +32,10 @@ function App() {
       <div className='bg-blue'>
         <Skills />
       </div>
-      <div className='bg-yellow' id='projectsweb'>
-        <ProjectsWeb />
-      </div>
-      <div className='bg-blue' id='projectsgames'>
+      <div className='bg-yellow' id='projectsgames'>
         <ProjectsGames />
       </div>
-      <div className='bg-yellow' id='contact'>
+      <div className='bg-blue' id='contact'>
         <Footer />
       </div>
     </div>
