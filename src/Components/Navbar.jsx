@@ -61,13 +61,6 @@ const Navbar = () => {
                 >
                   <ul className="space-y-1">
                     <li>
-                      <a href="#projectsweb">
-                        <h1 className="font-Khand flex lg:px-4 py-2 text-yellow text-2xl transition transform hover:scale-110 lg:hover:translate-x-2 hover:translate-x-5">
-                          Web
-                        </h1>
-                      </a>
-                    </li>
-                    <li>
                       <a href="#projectsgames">
                         <h1 className="font-Khand flex lg:px-4 py-2 text-yellow text-2xl transition transform hover:scale-110 lg:hover:translate-x-2 hover:translate-x-5">
                           Videojuegos
