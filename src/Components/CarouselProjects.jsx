@@ -4,7 +4,7 @@ import { Carousel } from 'keep-react'
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 const boxes = [
-  { id: 0, image: "mydolife.png", url: "https://github.com/paulino-app/mydo-life", alt: "Mydo life",},
+  // { id: 0, image: "mydolife.png", url: "https://github.com/paulino-app/mydo-life", alt: "Mydo life",},
   { id: 1, image: "fnaf-CJ.webp", url: "https://gamejolt.com/games/clouded_judgment/830459", alt: "FNAF Clouded Judgment"},
   { id: 2, image: "NahualAttack.png", url: "https://gx.games/es/games/gct7ed/nahual-attack/", alt: "Nahual Attack"},
   { id: 3, image: "too.png", url: "https://strawberrychar.itch.io/too-much-perverts", alt: "Too much perverts"},
