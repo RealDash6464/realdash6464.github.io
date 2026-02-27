@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="bg-yellow pt-0.5 border-b border-black">
       <nav className="container py-2 flex flex-wrap justify-between w-[75%] mx-auto items-center">
         <div>
-          <a href="./life/HojadevidaDanielAriza.pdf" target="blank">
+          <a href="./life/cv.pdf" target="blank">
             <h1 className="text-blue font-Oswald text-4xl transition transform hover:scale-110 hover:-translate-y-1 ">
               Dash64.dev
             </h1>
