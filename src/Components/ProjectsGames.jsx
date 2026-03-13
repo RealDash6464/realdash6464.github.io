@@ -7,7 +7,8 @@ const projects = [
   { id:0, name: "Nahual Attack", url: "https://gx.games/es/games/gct7ed/nahual-attack/", image: "NahualAttack.png", rol: "Diseñador", engine: "GM", git: false, zoom: "zoom-in-right", git_url: null },
   { id:1, name: "Too much perverts", url: "https://strawberrychar.itch.io/too-much-perverts", image: "too.png", rol: "Desarrollador", engine: "GM", git: false, zoom: "zoom-in-left", git_url: null },
   { id:2, name: "The way of the light", url: "https://realdash64.itch.io/the-way-of-the-light", image: "Light.png", rol: "Desarrollador", engine: "Unity", git: true, zoom: "zoom-in-right", git_url: "https://github.com/Dash6464/Reto-2" },
-  { id:3, name: "FNAF Cloud Judment", url: "https://gamejolt.com/games/clouded_judgment/830459", image: "fnaf-CJ.webp", rol: "Desarrollador", engine: "Unity", git: false, zoom: "zoom-in-left", git_url: null }
+  { id:3, name: "FNAF Cloud Judment", url: "https://gamejolt.com/games/clouded_judgment/830459", image: "fnaf-CJ.webp", rol: "Desarrollador", engine: "Unity", git: false, zoom: "zoom-in-left", git_url: null },
+  { id:4, name: "Gamecube Controller Tester", url: "https://github.com/RealDash6464/GamecubeControllerTester/releases", image: "Gamecube.png", rol: "Desarrollador", engine: "Unity", git: true, zoom: "zoom-in-right", git_url: "https://github.com/RealDash6464/GamecubeControllerTester" }
 ];
 
 const ProjectsGames = () => {
@@ -75,6 +76,9 @@ const ProjectsGames = () => {
       <div className="mt-9 flex lg:flex-row flex-col justify-evenly items-center lg:items-start">
         {listprojects[2]}
         {listprojects[3]}
+      </div>
+      <div className="mt-9 flex lg:flex-row flex-col justify-evenly items-center lg:items-start">
+        {listprojects[4]}
       </div>
     </div>
   );
