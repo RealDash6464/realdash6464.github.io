@@ -71,15 +71,15 @@ const ProjectsGames = () => {
       </h1>
       <div className="mt-9 flex lg:flex-row flex-col justify-evenly items-center lg:items-start">
         {listprojects[0]}
-        {listprojects[1]}
+        {listprojects[4]}
       </div>
       <div className="mt-9 flex lg:flex-row flex-col justify-evenly items-center lg:items-start">
         {listprojects[2]}
         {listprojects[3]}
       </div>
-      <div className="mt-9 flex lg:flex-row flex-col justify-evenly items-center lg:items-start">
+      {/* <div className="mt-9 flex lg:flex-row flex-col justify-evenly items-center lg:items-start">
         {listprojects[4]}
-      </div>
+      </div> */}
     </div>
   );
 };
